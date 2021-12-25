@@ -2,7 +2,7 @@
 
 // Importing libraries
 import { Fragment } from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 // Importing components
 import Header from './components/common/Header'

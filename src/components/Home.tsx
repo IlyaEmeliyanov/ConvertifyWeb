@@ -1,6 +1,6 @@
 
 // Importing libraries
-import { FC, Fragment } from 'react'
+import { FC } from 'react'
 
 // Importing css
 import '../css/home.css'
