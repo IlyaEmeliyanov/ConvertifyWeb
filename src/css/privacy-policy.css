@@ -1,0 +1,28 @@
+.privacy-policy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 40%;
+    padding-bottom: 100px;
+}
+
+.privacy-policy div {
+    margin-bottom: 3rem;
+}
+
+.privacy-policy strong {
+    font-size: 36px;
+    color: var(--midnight-blue);
+}
+
+.privacy-policy p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgb(62, 62, 82);
+    margin-bottom: 1rem;
+}
+
+.privacy-policy a {
+    color: var(--cornflower-blue)
+}
