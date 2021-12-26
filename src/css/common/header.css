@@ -8,6 +8,10 @@
 }
 
 .header__nav {
+  position: relative;
+  width: 30%;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,4 +42,10 @@
   box-shadow: inset white 0 0 1.5px, 0 0 20px rgb(138, 138, 138, 0.5);
   transform: translateY(-3px);
   background-color: rgba(211, 214, 255, 0.3);
+}
+
+
+/* Media queries */
+@media screen and (max-width: 1050px) {
+    
 }

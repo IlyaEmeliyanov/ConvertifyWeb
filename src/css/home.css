@@ -28,4 +28,16 @@
 .main__desc {
     color: white;
     text-align: center;
+    font-size: 16px;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .main__img {
+        top: 30px;
+    }
+    .main__title {
+        font-size: 70px;
+    }
 }

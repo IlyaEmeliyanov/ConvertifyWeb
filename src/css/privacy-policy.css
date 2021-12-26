@@ -26,3 +26,32 @@
 .privacy-policy a {
     color: var(--cornflower-blue)
 }
+
+
+/* Media queries */
+@media screen and (max-width: 1440px) {
+    .privacy-policy {
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .privacy-policy {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .privacy-policy {
+        top: 20%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .privacy-policy {
+        top: 10%;
+        width: 80%;
+    }
+}
+
