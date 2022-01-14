@@ -4,12 +4,9 @@ import { FC } from 'react'
 import '../css/privacy-policy.css'
 
 interface PrivacyPolicyProps {
-    bgSrc: string
 }
 
-const PrivacyPolicy: FC<PrivacyPolicyProps> = ({ bgSrc }) => {
-
-    document.body.style.backgroundImage = bgSrc;
+const PrivacyPolicy: FC<PrivacyPolicyProps> = () => {
 
     return (
         <section className='privacy-policy'>

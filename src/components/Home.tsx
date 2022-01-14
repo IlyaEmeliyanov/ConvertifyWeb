@@ -6,18 +6,35 @@ import { FC } from 'react'
 import '../css/home.css'
 
 interface HomeProps {
-    bgSrc: string
 }
 
-const Home:FC<HomeProps> = ({bgSrc}) => {
-
-    document.body.style.backgroundImage = bgSrc;
+const Home:FC<HomeProps> = () => {
 
     return(
         <main className='main'>
-            <img className='main__img' src={require("../images/image.png")} alt="" />
-            <h1 className='main__title'>Convertify <span className="title__version">1.0</span></h1>
-            <p className='main__desc'>We’re glad to present the most perfect <br /> mobile convert tool on the market</p>
+            <div className="left">
+                <div className="logo__container">
+                    <img width={55} height={55} className="logo" src={require("../images/logo.svg").default} alt="" />
+                    <h1 className='title'>Conv3rtify</h1>
+                </div>
+                <p className='desc'>
+                    📱 The most versatile mobile convert tool on the AppStore.
+                    It's yet simple to use and very functional. 
+                    <br /> <br /> 
+                    It offers 2 set of features  <strong>😇 standard</strong> and <strong>😈 pro</strong>. So all the needs can be satisfied. <br />
+                    <br />
+
+                    App available for iPhone and iPad.
+                </p>
+                <button className='btn'>
+                    <a href="https://apple.com">
+                        <img className="btn__img" src={require("../images/download.svg").default} alt="" />
+                    </a>
+                </button>
+            </div>
+            <div className='right'>
+                <img className='img' src={require("../images/image.png")} alt="" />
+            </div>
         </main>
     );
 }

@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(221, 235, 255, 0.3);
+  background: rgba(234, 234, 234, 0.3);
 }
 
 .header__nav {
@@ -39,9 +39,7 @@
 }
 
 .menu__item:hover {
-  box-shadow: inset white 0 0 1.5px, 0 0 20px rgb(138, 138, 138, 0.5);
   transform: translateY(-3px);
-  background-color: rgba(211, 214, 255, 0.3);
 }
 
 

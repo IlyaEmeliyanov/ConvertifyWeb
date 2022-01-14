@@ -15,8 +15,8 @@ function App() {
       <Fragment>
         <Header />
         <Routes>
-          <Route path="/" element={<Home bgSrc={"url(images/home.jpg)"} />}></Route>
-          <Route path="privacy-policy" element={<PrivacyPolicy bgSrc={"url(images/privacy-policy.jpg)"}/>}></Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="privacy-policy" element={<PrivacyPolicy />}></Route>
         </Routes>
       </Fragment>
   );

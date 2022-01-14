@@ -1,6 +1,6 @@
 .privacy-policy {
     position: absolute;
-    top: 50%;
+    top: 200px;
     left: 50%;
     transform: translate(-50%);
     width: 40%;
@@ -30,9 +30,6 @@
 
 /* Media queries */
 @media screen and (max-width: 1440px) {
-    .privacy-policy {
-        top: 30%;
-    }
 }
 
 @media screen and (max-width: 1024px) {

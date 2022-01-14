@@ -17,7 +17,8 @@ interface HeaderProps {
 const Header: FC<HeaderProps> = () => {
 
     const navItems = [
-        {label: 'Home', path: '/'},
+        {label: 'Conv3rtify', path: '/'},
+        {label: 'Term of Use', path: '/terms-use'},
         {label: 'Privacy policy', path: '/privacy-policy'}
     ];
 
