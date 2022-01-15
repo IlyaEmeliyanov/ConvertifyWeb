@@ -1,4 +1,4 @@
-.privacy-policy {
+.section {
     position: absolute;
     top: 200px;
     left: 50%;
@@ -7,23 +7,23 @@
     padding-bottom: 100px;
 }
 
-.privacy-policy div {
+.section div {
     margin-bottom: 3rem;
 }
 
-.privacy-policy strong {
+.section strong {
     font-size: 36px;
     color: var(--midnight-blue);
 }
 
-.privacy-policy p {
+.section p {
     font-size: 1.1rem;
     font-weight: 300;
     color: rgb(62, 62, 82);
     margin-bottom: 1rem;
 }
 
-.privacy-policy a {
+.section a {
     color: var(--cornflower-blue)
 }
 
@@ -33,20 +33,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .privacy-policy {
+    .section {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .privacy-policy {
+    .section {
         top: 20%;
         width: 60%;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .privacy-policy {
+    .section {
         top: 10%;
         width: 80%;
     }

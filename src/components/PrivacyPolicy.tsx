@@ -1,7 +1,7 @@
 import { FC } from 'react'
 
 // Importing css
-import '../css/privacy-policy.css'
+import '../css/section.css'
 
 interface PrivacyPolicyProps {
 }
@@ -9,7 +9,7 @@ interface PrivacyPolicyProps {
 const PrivacyPolicy: FC<PrivacyPolicyProps> = () => {
 
     return (
-        <section className='privacy-policy'>
+        <section className='section'>
             <i>Last updated: 25/12/2021</i>
             <br />
             <br />
