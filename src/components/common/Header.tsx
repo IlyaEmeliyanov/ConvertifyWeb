@@ -27,9 +27,11 @@ const Header: FC<HeaderProps> = () => {
     return (
         <header className="header">
             <nav className="header__nav">
-                <Link to="/" className="logo">
-                    <img width={40} height={50} src={Logo} alt="logo" />
-                </Link>
+                <div className="logo__container">
+                    <Link to="/" className="logo">
+                        <img width={40} height={50} src={Logo} alt="logo" />
+                    </Link>
+                </div>
                 <ul className={open ? "nav__menu-open" : "nav__menu"}>
                     {navItems.map(({ label, path }) => (
                         <li className="menu__item">

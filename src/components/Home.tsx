@@ -13,7 +13,7 @@ const Home:FC<HomeProps> = () => {
     return(
         <main className='main'>
             <div className="left">
-                <div className="logo__container">
+                <div className="logo__container" style={{marginBottom: '1rem'}}>
                     <img width={55} height={55} className="logo" src={require("../images/logo.svg").default} alt="" />
                     <h1 className='title'>Conv3rtify</h1>
                 </div>
@@ -27,7 +27,7 @@ const Home:FC<HomeProps> = () => {
                     App available for iPhone and iPad.
                 </p>
                 <button className='btn'>
-                    <a href="https://apple.com">
+                    <a href="https://apps.apple.com/today">
                         <img className="btn__img" src={require("../images/download.svg").default} alt="" />
                     </a>
                 </button>
