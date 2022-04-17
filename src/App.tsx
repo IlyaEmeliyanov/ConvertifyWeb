@@ -14,7 +14,6 @@ function App() {
 
   return (
       <Fragment>
-        <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="terms-conditions" element={<TermsConditions />}></Route>

@@ -1,67 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@font-face {
-  font-family: SF Pro;
-  src: url(/public/fonts/SF-Pro.ttf);
-}
-@font-face {
-  font-family: SF Pro Medium;
-  src: url(/public/fonts/SF-Pro-Display-Medium.otf);
-}
-@font-face {
-  font-family: SF Pro Bold;
-  src: url(/public/fonts/SF-Pro-Display-Bold.otf);
-}
-
-:root {
-  /* Colors */
-  --cornflower-blue: #5a5bf1;
-  --maya-blue: #51b9ef;
-  --midnight-blue: #1a1b31;
-  --athens-gray: #e7e7ee;
-  --cristal-white: #fff;
-
-  /* --font-color: var(--midnight-blue); */
-  --font-color: var(var(--midnight-blue));
-  /* --active-color: #007bff; */
-  --active-color: #5a5bf1;
-  
-
-  --transition: 0.3s ease-in-out;
+* {
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
 body {
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  /* letter-spacing: 0.5px; */
-  line-height: 30px;
+    
 }
-
-* {
-  box-sizing: border-box;
-  color: var(--font-color);
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: var(--active-color);
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-}
-
-button {
-  background: transparent;
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
-ul {
-  list-style: none;
-}
-
-
