@@ -12,27 +12,25 @@ const TermsConditions: FC<TermsConditionsProps> = () => {
     return (
         <>
         <Header />
-        <section className="p-8 md:px-36 md:py-12 lg:px-72 xl:px-96">
+        <section className="p-8 md:px-36 md:py-12 lg:px-72 xl:px-96 mb-4">
             <i className="text-lg font-medium text-gray-600">Last updated: 15/01/2022</i>
             <br />
             <br />
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">Terms and Conditions</strong>
                 <p className="font-base text-md text-gray-600">Welcome to conv3rtify.com!</p>
                 <p className="font-base text-md text-gray-600">These terms and conditions outline the rules and regulations for the use of Conv3rtify's Website, located at https://conv3rtify.netlify.app/.</p>
                 <p className="font-base text-md text-gray-600">By accessing this website we assume you accept these terms and conditions. Do not continue to use conv3rtify.com if you do not agree to take all of the terms and conditions stated on this page.</p>
                 <p className="font-base text-md text-gray-600">The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
-                <br />
             </div>
 
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">Cookies</strong>
                 <p className="font-base text-md text-gray-600">We employ the use of cookies. By accessing conv3rtify.com, you agreed to use cookies in agreement with the Conv3rtify's Privacy Policy</p>
                 <p className="font-base text-md text-gray-600">Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
-                <br />
             </div>
 
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">License</strong>
                 <p className="font-base text-md text-gray-600">Unless otherwise stated, Conv3rtify and/or its licensors own the intellectual property rights for all material on conv3rtify.com. All intellectual property rights are reserved. You may access this from conv3rtify.com for your own personal use subjected to restrictions set in these terms and conditions.</p>
 
@@ -63,7 +61,7 @@ const TermsConditions: FC<TermsConditionsProps> = () => {
                 </p>
             </div>
 
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">Hyperlinking to our Content</strong>
                 <p className="font-base text-md text-gray-600">The following organizations may link to our Website without prior written approval:</p>
 
@@ -112,36 +110,36 @@ const TermsConditions: FC<TermsConditionsProps> = () => {
                 </p>
             </div>
 
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">iFrames</strong>
                 <p className="font-base text-md text-gray-600">Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p>
             </div>
 
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">Content Liability</strong>
                 <p className="font-base text-md text-gray-600">We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
             </div>
 
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">Your Privacy</strong>
                 <p className="font-base text-md text-gray-600">Please read Privacy Policy</p>
             </div>
 
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">Reservation of Rights</strong>
                 <p className="font-base text-md text-gray-600">We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
             </div>
 
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">Removal of links from our website</strong>
                 <p className="font-base text-md text-gray-600">If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
             </div>
 
-            <div>
+            <div className="mb-8">
                 <p className="font-base text-md text-gray-600">We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p>
             </div>
 
-            <div>
+            <div className="mb-8">
                 <strong className="text-2xl font-semibold text-gray-800 mb-8">Disclaimer</strong>
                 <p className="font-base text-md text-gray-600">To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
                 <p className="font-base text-md text-gray-600">
@@ -156,10 +154,7 @@ const TermsConditions: FC<TermsConditionsProps> = () => {
 
                 <p className="font-base text-md text-gray-600">As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
             </div>
-
-
         </section>
-        <Footer />
         </>
     );
 }

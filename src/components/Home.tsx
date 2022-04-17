@@ -14,7 +14,7 @@ const Home:FC<HomeProps> = () => {
     return(
         <>
         <Header />
-        <main className='mx-8 gap-8 xl:mx-96 lg:mx-48 md:flex-row flex-col mt-16 md:mt-36 flex justify-center items-center'>
+        <main className='mx-8 gap-8 xl:mx-96 lg:mx-48 md:flex-row flex-col mt-16 md:mt-36 flex justify-center items-center mb-8 md:mb-24'>
             <div className="md:w-1/3 w-full">
                 <div className="flex justify-start items-center gap-2" style={{marginBottom: '1rem'}}>
                     <img width={55} height={55} className="logo" src={require("../images/logo.svg").default} alt="" />
