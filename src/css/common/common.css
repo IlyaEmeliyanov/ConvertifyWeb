@@ -7,6 +7,24 @@
     font-size: 16px;
 }
 
-body {
-    
+body {}
+
+.app-store-btn {
+    display: inline-block;
+    overflow: hidden;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    width: 200px;
+    height: 83px;
+}
+
+.app-store-btn img {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    width: 250px;
+    height: 83px;
 }

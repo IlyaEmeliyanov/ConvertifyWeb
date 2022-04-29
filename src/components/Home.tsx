@@ -30,9 +30,10 @@ const Home:FC<HomeProps> = () => {
                     App available for iPhone and iPad.
                 </p>
                 <button className='w-36'>
-                    <a href="https://apps.apple.com/today">
+                    {/* <a href="https://apps.apple.com/us/app/conv3rtify/id1602343906?itsct=apps_box_link&itscg=30200">
                         <img className="" src={require("../images/download.svg").default} alt="" />
-                    </a>
+                    </a> */}
+                    <a href="https://apps.apple.com/us/app/conv3rtify/id1602343906?itsct=apps_box_badge&amp;itscg=30200" className="app-store-btn"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1651017600&h=412fed4554af428dca5f99189105a054" alt="Download on the App Store" /></a>
                 </button>
             </div>
             <div className='md:w-2/3 w-full'>
